@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+
+        //Defining Variables
+        let firstName="Victor"; //Strings always use "" in ''
+        let age = 25;
+        let lastName = "Padilla";
+        let favouriteColor = "Purple";
+        let hasChildren = false; //Booleans are true or false
+        let ishappy = true;  
+        let iusRich = false;
+        let isadult = true
+        let colors = ["Red", "Blue", "Green"] //An array is a collection of items
+        let calledAFriend = null; //empty values
+        let calledAFriend; //undefined
+        let DateOfBirth = new Date(1998,4,16);
+        const githubURL = "https://github.com/VictorPadilla0861";
+
+        //an object
+        let student = //creates an object called student
+        {
+            firstName: "Victor",
+            lastName: "Padilla",
+            age: 25,
+            hasADog: true
+            hobbies: ["DnD","Cooking","Gaming"] //array within an object
+            scoreOnAssessment: [10,20,30]
+            
+            DateOfBirth: new Date((1998,3,16))
+        };
+
+ 
+
+        let colors = ["Red","Blue","Green"];
+
+
+        let numberA = 5;
+        let numberB = 10;
+        let result = numberA + numberB;
+        console.log(result);  //Display the variable value
+        console.log("The result is " + result);  // Combining tekst plus a variable
+        console.log(`The result is ${result}`);  // Backticks '  ' $to call out the variable name
+
+        console.log(`The result is ${result}`);
+        console.log(`The students name is : ${student.firstname}`)
+        console.log(`The person in question is ${student.firstName}`);
+        console.log(`Hi my name is ${student.firstName} ${student.lastName}. I am ${student.age} years old. My favorite hobbies are ${student.hobbies[0]} and ${student.hobbies[1]} and ${student.hobbies[2]}.`
+
+      );
+         
+    let parents = 
+    {
+            mother: "Margarita",
+            father: "Jose",
+            lastName: "Padilla",
+            children: 3,
+            kids: [Victor,Lily,Eli]
+        }
+
+        console.log(`My name is ${firstName}${lastName}I am ${age} years old, and my favourite color is ${favouriteColor}`);
+        
+        console.log(`My parents are ${parents.mother}${parents.lastName} and ${parents.father}${parents.lastName}. They have ${parents.children} children. Their names are ${parents.kids[0]}, ${parents.kids[1]}, and ${parents.kids[3]}`);
+
+
+    </script>
+</body>
+</html>
