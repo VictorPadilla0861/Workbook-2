@@ -1,3 +1,17 @@
 body{
     background-color: plum;
+    color: white;
 }
+
+footer{
+    color: white;
+}
+
+.navbar-nav .nav-link{
+    color: #ec6e6e !important;
+  }
+
+  .navbar-brand{
+    color: aquamarine;
+  }
+
