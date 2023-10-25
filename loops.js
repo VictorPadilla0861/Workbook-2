@@ -25,7 +25,7 @@ let total = 0;
 for (let index = 0; index < myCartList.length; index++) {
   total += myCartList[index];
 }
-console.log(`Total prindexce: $${total}`);
+console.log(`Total price: $${total}`);
 // Output: "Total prindexce: $400"
 
 // const shoeSindexzes = [7, 7.5, 8, 8.5, 9, 9.5, 10];
